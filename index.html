@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume - Kevin Jonathan</title>
+    <title>Resume – Kevin Jonathan</title>
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css" />
@@ -12,21 +12,37 @@
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body oncontextmenu="return false;">
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
-    <section class="hero is-dark is-bold is-fullheight" style="background: url('img/background.jpg') fixed;">
-        <div class="hero-head">
+    <section class="hero is-info is-fullheight" style="background: url('img/background.jpg') fixed;">
+        <div class="hero-head wow animate__fadeInDownBig animate__animated">
             <header class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
                         <a class="navbar-item" href="http://kevinjonathan.dx.am">
                             <strong style="font-size: 1.5rem;">Kevin Jonathan</strong>
                         </a>
+                        <span class="navbar-burger burger" data-target="navbarMenuHero">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHero" class="navbar-menu" style="font-weight: bold;">
+                        <div class="navbar-end">
+                          <a class="navbar-item is-active" href="#">
+                            Resume
+                          </a>
+                          <a class="navbar-item" href="http://kevinjonathan.dx.am">
+                            Blog
+                          </a>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </header>
@@ -35,29 +51,30 @@
         <div class="hero-body">
             <div class="container has-text-left">
                 <h1 class="welcomeTitle wow animate__fadeInDown animate__animated">
-                    This is my Resume.
+                    My Resume. <br>Reimagined.
                 </h1>
-                <br>
+                <br><br>
                 <a id="downloadButton" disabled class="is-size-7" href="Kevin's Curriculum Vitae.pdf" download><strong>DOWNLOAD RESUME
                         →</strong></a>
             </div>
         </div>
     </section>
     <div class="container has-text-black" id="main">
-        <div class="columns wow animate__fadeIn animate__animated">
-            <div class="column">
+        <div class="columns">
+            <div class="column wow animate__fadeInLeft animate__animated animate__faster">
                 <h1 class="mainTitle">
                     Technologies
                 </h1>
             </div>
-            <div class="column">
+            <div class="column wow animate__fadeInRight animate__animated animate__faster">
                 <p class="miniTitle">DAY-TO-DAY COMFORT</p>
                 <ul class="technologies">
-                    <li>Sass</li>
+                    <li>Sass / LESS</li>
                     <li>HTML5 / CSS3</li>
                     <li>JavaScript / jQuery</li>
                     <li>WordPress / PHP</li>
-                    <li>Photoshop</li>
+                    <li>Java / Kotlin</li>
+                    <li>Photoshop / Illustrator</li>
                     <li>Version Control ( GIT )</li>
                     <li>Bootstrap / Bulma</li>
                     <li>Responsive Layout and Design</li>
@@ -66,10 +83,11 @@
                     <li>Mobile First Thinking</li>
                 </ul>
             </div>
-            <div class="column">
+            <div class="column wow animate__fadeInRight animate__animated animate__faster">
                 <p class="miniTitle">EXPERIENCE WITH</p>
                 <ul class="technologies">
                     <li>AJAX</li>
+                    <li>Flutter / Dart</li>
                     <li>AngularJS</li>
                     <li>Nuxt.js</li>
                     <li>CodeIgniter</li>
@@ -78,13 +96,13 @@
                 </ul>
             </div>
         </div><br><br>
-        <div class="columns wow animate__fadeIn animate__animated">
-            <div class="column">
+        <div class="columns">
+            <div class="column wow animate__fadeInLeft animate__animated animate__faster">
                 <h1 class="mainTitle">
                     Experience
                 </h1>
             </div>
-            <div class="column is-8">
+            <div class="column is-8 wow animate__fadeInRight animate__animated animate__faster">
                 <p class="miniTitle">Student Representative Assembly</p>
                 <p><strong>Petra Christian University, Surabaya, June 2020 - Present</strong></p>
                 <p>Joined as a Member of Commission III. <a class="link" href="http://mpm.petra.ac.id"
@@ -102,13 +120,13 @@
                     Department since July 2019.</p>
             </div>
         </div><br><br>
-        <div class="columns wow animate__fadeIn animate__animated">
-            <div class="column">
+        <div class="columns">
+            <div class="column wow animate__fadeInLeft animate__animated animate__faster">
                 <h1 class="mainTitle">
                     Education
                 </h1>
             </div>
-            <div class="column is-8">
+            <div class="column is-8 wow animate__fadeInRight animate__animated animate__faster">
                 <p class="miniTitle">INFORMATICS ENGINEERING</p>
                 <p><strong>Petra Christian University, Surabaya, 2018 - Present</strong></p>
                 <p>Mobile App Development Minor.</p>
@@ -119,13 +137,13 @@
         <div class="hero-body has-text-centered">
             <div class="container">
                 <h1 class="promoTitle wow animate__fadeInUp animate__animated">
-                    Let me build the website you need.
+                    Let me build the app you need.
                 </h1>
                 <br>
                 <p style="color: black;" class="is-size-5 wow animate__fadeInUp animate__animated">Feel free to reach out and
                     start a conversation.</p>
                 <br><br>
-                <a id="contactButton" class="has-text-weight-bold is-size-7" href="mailto:kevinjonathan3010@gmail.com">CONTACT ME TODAY</a>
+                <a id="contactButton" class="has-text-weight-bold is-size-7" href="mailto:kevinjonathan3010@gmail.com">CONTACT ME NOW</a>
             </div>
         </div>
     </section>
@@ -153,8 +171,8 @@
                     </a>
                 </li><br><br>
             </ul>
-            <p class="has-text-light">&copy;
-                <script type="text/javascript"> document.write(new Date().getFullYear()); </script> Kevin Jonathan | All
+            <p class="has-text-light wow animate__fadeInUp animate__animated">&copy;
+                <script type="text/javascript"> document.write(new Date().getFullYear()); </script> Kevin Jonathan. All
                 rights reserved.</p>
         </div>
     </footer>
