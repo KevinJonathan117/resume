@@ -71,6 +71,7 @@ html {
 .mainTitle {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 2rem;
+    line-height: 3rem;
 }
 .miniTitle {
     font-family: 'Lato', sans-serif;
@@ -78,7 +79,7 @@ html {
 }
 .navbar-menu.is-active {
     animation: navAnim 0.5s ease-in-out;
-  }
+}
   
 @keyframes navAnim {
     0% {
