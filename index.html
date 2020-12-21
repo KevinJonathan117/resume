@@ -5,197 +5,135 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume – Kevin Jonathan</title>
-    <link rel="stylesheet" href="css/bulma.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.2/dist/paper.min.css">
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, print" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body oncontextmenu="return false;">
+<body>
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
-    <section class="hero is-info is-fullheight" style="background: url('img/background.jpg') fixed;">
-        <div class="hero-head wow animate__fadeInDownBig animate__animated">
-            <header class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <a class="navbar-item" href="http://kevinjonathan.dx.am">
-                            <strong style="font-size: 1.5rem;">Kevin Jonathan</strong>
-                        </a>
-                        <span class="navbar-burger burger" data-target="navbarMenuHero">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </div>
-                    <div id="navbarMenuHero" class="navbar-menu" style="font-weight: bold;">
-                        <div class="navbar-end">
-                            <a class="navbar-item is-active" href="#">
-                                Resume
-                            </a>
-                            <a class="navbar-item" href="http://kevinjonathan.dx.am">
-                                Blog
-                            </a>
-                        </div>
-                    </div>
-                </div>
+    <nav class="border split-nav">
+        <div class="nav-brand">
+            <h3><a href="http://kevinjonathan.dx.am/resume/">Kevin Jonathan</a></h3>
         </div>
-        </header>
-        </div>
-
-        <div class="hero-body">
-            <div class="container has-text-left">
-                <h1 class="welcomeTitle wow animate__fadeInDown animate__animated">
-                    My Resume. <br>Redacted.
-                </h1>
-                <br><br>
-                <a id="downloadButton" disabled class="is-size-7" href="Kevin's Curriculum Vitae.pdf"
-                    download><strong>DOWNLOAD RESUME
-                        →</strong></a>
-            </div>
-        </div>
-    </section>
-    <div class="container has-text-black" id="main">
-        <div class="columns">
-            <div class="column wow animate__fadeIn animate__animated">
-                <h1 class="mainTitle">
-                    About
-                </h1>
-            </div>
-            <div class="column is-8 wow animate__fadeIn animate__animated">
-                <p>My name is Kevin Jonathan. I'm a student in the Faculty of Industrial Technology at Petra Christian
-                    University. I can say that I am a responsible and a hard-working student. Moreover, being a sociable
-                    person, I have many friends since I like to communicate with people and get to know new interesting
-                    individuals.</p>
-            </div>
-        </div><br><br>
-        <div class="columns">
-            <div class="column wow animate__fadeIn animate__animated">
-                <h1 class="mainTitle">
-                    Technologies
-                </h1>
-            </div>
-            <div class="column wow animate__fadeIn animate__animated">
-                <p class="miniTitle">DAY-TO-DAY COMFORT</p>
-                <ul class="technologies">
-                    <li>Sass / LESS</li>
-                    <li>HTML5 / CSS3</li>
-                    <li>JavaScript / jQuery</li>
-                    <li>WordPress / PHP</li>
-                    <li>Java / Kotlin</li>
-                    <li>Photoshop / Illustrator</li>
-                    <li>Version Control ( GIT )</li>
-                    <li>Bootstrap / Bulma</li>
-                    <li>Responsive Layout and Design</li>
-                    <li>Agile Methodology</li>
-                    <li>Cross-Browser Compatibility</li>
-                    <li>Mobile First Thinking</li>
+        <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible1">
+            <label for="collapsible1">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </label>
+            <div class="collapsible-body">
+                <ul class="inline">
+                    <li><a href="http://kevinjonathan.dx.am/resume/">Resume</a></li>
+                    <li><a href="http://kevinjonathan.dx.am/">Blog</a></li>
                 </ul>
             </div>
-            <div class="column wow animate__fadeIn animate__animated">
-                <p class="miniTitle">EXPERIENCE WITH</p>
-                <ul class="technologies">
-                    <li>AJAX</li>
-                    <li>Flutter / Dart</li>
-                    <li>AngularJS</li>
-                    <li>Nuxt.js</li>
-                    <li>CodeIgniter</li>
-                    <li>Node.js (limited)</li>
-                    <li>React.js (limited)</li>
-                </ul>
-            </div>
-        </div><br><br>
-        <div class="columns">
-            <div class="column wow animate__fadeIn animate__animated">
-                <h1 class="mainTitle">
-                    Experience & Leadership
-                </h1>
-            </div>
-            <div class="column is-8 wow animate__fadeIn animate__animated">
-                <p class="miniTitle">Student Representative Assembly</p>
-                <p><strong>Petra Christian University, Surabaya, June 2020 - Present</strong></p>
-                <p>Joined as a Member of third Commission (Redacting rules and evaluate student organizations in
-                    Petra Christian University). <a class="link" href="http://mpm.petra.ac.id" target="_blank">Student
-                        Representative Assembly</a> is a legislative organization in Petra
-                    Christian University.</p>
-                <br>
-                <p class="miniTitle">Teaching Assistant</p>
-                <p><strong>Seven7h Edu Course Corp, Surabaya, January 2020 - Present</strong></p>
-                <p>My part time work, being a teaching assistant there. I'm also part of the IT team who maintains the
-                    website.</p>
-                <br>
-                <p class="miniTitle">IT Department - Student Press</p>
-                <p><strong>Petra Christian University, Surabaya, August 2018 - June 2020</strong></p>
-                <p>Created the basic layout of iOS Application. Handled weekly maintenance of the <a class="link"
-                        href="https://genta.petra.ac.id" target="_blank">website</a> and being the coordinator of IT
-                    Department since July 2019.</p>
-            </div>
-        </div><br><br>
-        <div class="columns">
-            <div class="column wow animate__fadeIn animate__animated">
-                <h1 class="mainTitle">
-                    Education
-                </h1>
-            </div>
-            <div class="column is-8 wow animate__fadeIn animate__animated">
-                <p class="miniTitle">INFORMATICS ENGINEERING</p>
-                <p><strong>Petra Christian University, Surabaya, 2018 - Present</strong></p>
-                <p>Mobile App Development Minor.</p>
-            </div>
         </div>
+    </nav>
+    <div class="paper container-fluid wow animate__fadeInUp animate__animated" style="margin-top: 1rem;">
+        <h1>My Resume. Redacted.</h1>
+        <a href="Kevin's Curriculum Vitae.pdf" download><button>Download Resume →</button></a>
+        <hr>
     </div>
-    <section class="hero has-background-white has-text-black is-large">
-        <div class="hero-body has-text-centered">
-            <div class="container">
-                <h1 class="promoTitle wow animate__fadeInUp animate__animated">
-                    Let me build the app you need.
-                </h1>
-                <br>
-                <p style="color: black;" class="is-size-5 wow animate__fadeInUp animate__animated">Feel free to reach
-                    out and
-                    start a conversation.</p>
-                <br><br>
-                <a id="contactButton" class="has-text-weight-bold is-size-7"
-                    href="mailto:kevinjonathan3010@gmail.com">CONTACT ME NOW</a>
+    <div class="paper container-fluid" style="margin-top: 1rem;">
+        <article class="article">
+            <h2 class="article-title">About</h2>
+            <p class="text-lead">My name is Kevin Jonathan. I'm a student in the Faculty of Industrial Technology at
+                Petra Christian University. I can say that I am a responsible and a hard-working student. Moreover,
+                being a sociable person, I have many friends since I like to communicate with people and get to know new
+                interesting individuals.</p>
+        </article>
+        <hr>
+    </div>
+    <div class="paper container-fluid wow animate__fadeInUp animate__animated" style="margin-top: 1rem;">
+        <article class="article">
+            <h2 class="article-title">Technologies</h2>
+            <div class="row flex-spaces child-borders child-shadows-hover">
+                <div class="sm-3 col border border-primary">Sass / LESS</div>
+                <div class="sm-3 col border border-2 border-primary">HTML5 / CSS3</div>
+                <div class="sm-3 col border border-3 border-primary">JavaScript / jQuery</div>
+                <div class="sm-3 col border border-3 border-primary">WordPress / PHP</div>
             </div>
-        </div>
-    </section>
-    <footer class="footer has-background-black-ter">
-        <div class="content has-text-centered">
-            <ul id="social">
-                <li>
-                    <a href="https://facebook.com/kevinjonathan3010" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/kevinjo30_" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/KevinJonathan117" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:kevinjonathan3010@gmail.com" target="_blank">
-                        <i class="far fa-envelope"></i>
-                    </a>
-                </li><br><br>
-            </ul>
-            <p class="has-text-light wow animate__fadeInUp animate__animated">&copy;
-                <script type="text/javascript"> document.write(new Date().getFullYear()); </script> Kevin Jonathan. All
-                rights reserved.</p>
-        </div>
-    </footer>
+            <div class="row flex-spaces child-borders child-shadows-hover">
+                <div class="sm-3 col border border-4 border-primary">Java / Kotlin</div>
+                <div class="sm-3 col border border-5 border-primary">Photoshop / Illustrator</div>
+                <div class="sm-3 col border border-6 border-primary">Version Control ( GIT )</div>
+                <div class="sm-3 col border border-3 border-primary">Bootstrap / Bulma</div>
+            </div>
+            <div class="row flex-spaces child-borders child-shadows-hover">
+                <div class="sm-3 col border border-4 border-primary">Responsive Layout and Design</div>
+                <div class="sm-3 col border border-5 border-primary">Agile Methodology</div>
+                <div class="sm-3 col border border-6 border-primary">Cross-Browser Compatibility</div>
+                <div class="sm-3 col border border-3 border-primary">Mobile First Thinking</div>
+            </div>
+            <div class="row flex-spaces child-borders child-shadows-hover">
+                <div class="sm-3 col border border-4 border-primary">AJAX</div>
+                <div class="sm-3 col border border-5 border-primary">Dart / Flutter</div>
+                <div class="sm-3 col border border-6 border-primary">Swift</div>
+                <div class="sm-3 col border border-3 border-primary">CodeIgniter</div>
+            </div>
+        </article>
+        <hr>
+    </div>
+    <div class="paper container-fluid wow animate__fadeInUp animate__animated" style="margin-top: 1rem;">
+        <h2>Experience & Leadership</h2>
+        <article class="article">
+            <h2 class="article-title">Student Representative Assembly</h2>
+            <p class="article-meta">Petra Christian University, Surabaya, June 2020 - Present</p>
+            <p>Joined as a Member of third Commission (Redacting rules and evaluate student organizations in Petra
+                Christian University). Student Representative Assembly is a legislative organization in Petra Christian
+                University.</p>
+
+            <div class="row">
+                <a href="http://mpm.petra.ac.id" target="_blank"><button>Website</button></a>
+            </div>
+        </article>
+        <article class="article">
+            <h2 class="article-title">Teaching Assistant</h2>
+            <p class="article-meta">Seven7h Edu Course Corp, Surabaya, January 2020 - Present</p>
+            <p>My part time work, being a teaching assistant there. I'm also part of the IT team who maintains the
+                website.</p>
+        </article>
+        <article class="article">
+            <h2 class="article-title">IT Department - Student Press</h2>
+            <p class="article-meta">Petra Christian University, Surabaya, August 2018 - June 2020</p>
+            <p>Created the basic layout of iOS Application. Handled weekly maintenance of the website and being the
+                coordinator of IT Department since July 2019.</p>
+
+            <div class="row">
+                <a href="https://genta.petra.ac.id" target="_blank"><button>Website</button></a>
+            </div>
+        </article>
+        <hr>
+    </div>
+    <div class="paper container-fluid wow animate__fadeInUp animate__animated" style="margin-top: 1rem;">
+        <h2>Education</h2>
+        <article class="article">
+            <h2 class="article-title">INFORMATICS ENGINEERING</h2>
+            <p class="article-meta">Petra Christian University, Surabaya, 2018 - Present</p>
+            <p>Mobile App Development Minor.</p>
+
+            <div class="row">
+                <a href="http://petra.ac.id" target="_blank"><button>Website</button></a>
+            </div>
+        </article>
+        <hr>
+    </div>
+    <div class="paper container-fluid wow animate__fadeInUp animate__animated" style="margin-top: 1rem;">
+        <h1>Let me build the app you need.</h1>
+        <p>Feel free to reach
+            out and
+            start a conversation!</p>
+        <a href="mailto:kevinjonathan3010@gmail.com"><button>CONTACT ME NOW</button></a>
+        <hr>
+    </div>
+
     <script src="js/jquery.min.js" defer></script>
-    <script src="https://use.fontawesome.com/releases/v5.15.0/js/all.js" defer></script>
     <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>
     <script src="js/script.min.js" defer></script>
